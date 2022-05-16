@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    background: linear-gradient(180deg, #44164D 0%, #4A174D 11.1%, #59194C 25.22%, #731D4A 40.97%, #59194C 57.79%, #44164D 74.6%);;
+}
+
+.box {
+    position: relative;
+    height: 130vh;
+    overflow: hidden;
+}
+
+.main__bg-img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main__bg-img-2 {
+    width: 100%;
+    height: 46vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.sun-img {
+    width: 60%;
+    position: absolute;
+    bottom: -50%;
+    left: 20%;
+    z-index: 2;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.sunshine-img {
+    width: 45%;
+    position: absolute;
+    bottom: 15%;
+    left: 26%;
+    z-index: 4;
+    opacity: 0;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.left-top {
+    z-index: 5;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    left: -17%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+.left-bottom {
+    z-index: 5;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    left: -27%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.right-top {
+    z-index: 5;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    right: -17%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+.right-bottom {
+    z-index: 5;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    right: -27%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
